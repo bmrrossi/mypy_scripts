@@ -3,7 +3,7 @@ from prometheus_client import start_http_server, Histogram, REGISTRY
 import random
 import time
 
-app = Flask("bosta")
+app = Flask()
 
 request_time = Histogram('http_request_duration_seconds',
                          'Description of fkdjfkd',
